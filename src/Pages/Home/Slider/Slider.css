@@ -1,0 +1,29 @@
+@media (max-width:576px) {
+    .slider {
+        height: 200px;
+        overflow: hidden;
+
+        padding: 0;
+    }
+
+
+}
+
+
+@media (max-width: 1920px) {
+    .slider {
+        height: 80vh;
+        overflow: hidden;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .slider {
+        height: 20vh;
+        overflow: hidden;
+        padding: 0;
+    }
+
+
+}
