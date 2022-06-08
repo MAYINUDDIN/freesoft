@@ -2,52 +2,69 @@ import React from 'react';
 import finance from '../../src/assets/slider/finance.jpg'
 const Market = () => {
     return (
-        <div className='row grid sm:grid-cols-1 justify-center md:grid-cols-2  lg:grid-cols-3 gap-2 lg:px-12 mb-5'>
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img className='h-48 w-96' src={finance} alt="Finace" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div>
-                        <div class="badge badge-outline">Products</div>
+        <div className=''>
+            <div className='grid px-6 lg:px-16 grid-col-4 lg:grid-cols-4 gap-3  mt-5 mb-5 flex justify-center'>
+                <div class="card bordered rounded h-60 w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-48 w-96' src={finance} alt="Shoes" /></figure>
+                    <h1 className='text-primary mt-2 text-xl font-bold'>Finance</h1>
+                </div>
+
+                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold text-primary drop-shadow ">
+                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
+                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
+                        </h2>
+                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
+                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
+
+                        <div class="card-actions justify-center">
+                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
+
+                        </div>
                     </div>
                 </div>
+
+                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold text-primary drop-shadow ">
+                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
+                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
+                        </h2>
+                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
+                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
+
+                        <div class="card-actions justify-center">
+                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold text-primary drop-shadow ">
+                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
+                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
+                        </h2>
+                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
+                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
+
+                        <div class="card-actions justify-center">
+                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div>
-                        <div class="badge badge-outline">Products</div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div>
-                        <div class="badge badge-outline">Products</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div >
+
     );
 };
 
