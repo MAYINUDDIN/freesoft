@@ -73,8 +73,8 @@ const Navbar = () => {
                         </li>
                         <li><a>Services</a></li>
                         <li><a>News & Events</a></li>
-                        <li className='mr-0'><NavLink to='contact-us'>Contact us</NavLink></li>
-                        <li className='mr-0 text-sm'><a> <BsFillTelephonePlusFill /> +8801999-089087 <br /></a></li>
+                        <li className='mr-20'><NavLink to='contact-us'>Contact us</NavLink></li>
+                        <li className='mr-5 text-sm'><a> <BsFillTelephonePlusFill /> +8801999-089087 <br /></a></li>
 
 
                     </ul>

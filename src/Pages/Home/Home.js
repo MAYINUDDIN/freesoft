@@ -1,5 +1,6 @@
 import React from 'react';
 import Market from '../Market';
+import Client from './Client';
 import Slider from './Slider/Slider';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 
             <Slider></Slider>
             <Market></Market>
+            <Client></Client>
         </div>
     );
 };

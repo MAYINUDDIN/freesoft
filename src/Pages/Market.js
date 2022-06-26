@@ -1,63 +1,39 @@
 import React from 'react';
-import finance from '../../src/assets/slider/finance.jpg'
+import website from '../../src/assets/slider/web.gif'
+import apps from '../../src/assets/slider/apps.jpg'
+import ERP from '../../src/assets/slider/erp.jpg'
+import ecommerce from '../../src/assets/slider/ecmrc.jpg'
+
 const Market = () => {
     return (
         <div className=''>
-            <div className='grid px-6 lg:px-16 grid-col-4 lg:grid-cols-4 gap-3  mt-5 mb-5 flex justify-center'>
-                <div class="card bordered rounded h-60 w-62 bg-base-100 shadow-xl">
-                    <figure><img className='h-48 w-96' src={finance} alt="Shoes" /></figure>
-                    <h1 className='text-primary mt-2 text-xl font-bold'>Finance</h1>
+            <h2 className='text-2xl font-bold text-dark drop-shadow mt-5'>OUR SERVICES</h2>
+
+            <div className='grid px-6 lg:px-16 grid-col-4 lg:grid-cols-4 gap-3  mt-5 mb-5 flex justify-center  '>
+                <div class="card bordered rounded h-80 w-62 bg-base-100 shadow-xl ">
+                    <figure><img className='h-48 w-96 hover:scale-110 duration-1000' src={website} alt="Shoes" /></figure>
+                    <h1 className='text-primary mt-3 text-lg drop-shadow font-bold'>WEBSITE DEVELOPMENT</h1>
+                    <p className='text-justify pl-5 pr-5 mt-2 text-sm'>Web Development consists of two segments: front end development and backend development</p>
                 </div>
 
-                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
-                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title font-bold text-primary drop-shadow ">
-                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
-                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
-                        </h2>
-                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
-                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
 
-                        <div class="card-actions justify-center">
-                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
-
-                        </div>
-                    </div>
+                <div class="card bordered rounded h-80 w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-48 w-96 hover:scale-110 duration-1000' src={apps} alt="Shoes" /></figure>
+                    <h1 className='text-primary mt-3 text-lg drop-shadow font-bold'>MOBILE APPS DEVELOPMENT</h1>
+                    <p className='text-justify pl-5 pr-5 mt-2 text-sm'>With the world going mobile, the importance of apps is increasing day by day</p>
                 </div>
 
-                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
-                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title font-bold text-primary drop-shadow ">
-                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
-                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
-                        </h2>
-                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
-                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
 
-                        <div class="card-actions justify-center">
-                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
-
-                        </div>
-                    </div>
+                <div class="card bordered rounded h-80 w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-48 w-96 hover:scale-110 duration-1000' src={ERP} alt="Shoes" /></figure>
+                    <h1 className='text-primary mt-3 text-lg drop-shadow font-bold'>ERP SOFTWARE</h1>
+                    <p className='text-justify pl-5 pr-5 mt-2 text-sm'>ERP Software consists of two segments: front end development and backend development</p>
                 </div>
 
-                <div class="card bordered rounded w-62 bg-base-100 shadow-xl">
-                    <figure><img className='h-40 w-96' src={finance} alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title font-bold text-primary drop-shadow ">
-                            সারাদেশে <span className='text-success'>ডেলিভারি</span>
-                            <div class="badge badge-secondary text-white ">মাত্র ৭০ টাকায়</div>
-                        </h2>
-                        <p className='text-center'> <span className='text-secondary  text-lg font-bold'>৩০ টাকায় ঢাকাতে</span></p>
-                        <p className='text-center'> <span className='text-dark text-sm'>আমরাই অল্প সময়ে ডেলিভারি নিশ্চিত করে থাকি</span></p>
-
-                        <div class="card-actions justify-center">
-                            <button className='btn btn-primary btn-md rounded px-12 mt-2 ' >কুরিয়ার করুন</button>
-
-                        </div>
-                    </div>
+                <div class="card bordered rounded h-80 w-62 bg-base-100 shadow-xl">
+                    <figure><img className='h-48 w-96 hover:scale-110 duration-1000' src={ecommerce} alt="Shoes" /></figure>
+                    <h1 className='text-primary mt-3 text-lg drop-shadow font-bold'>ECOMMERCE SOLUTION</h1>
+                    <p className='text-justify pl-5 pr-5 mt-2 text-sm'>Web Development consists of two segments: front end development and backend development</p>
                 </div>
 
             </div>
