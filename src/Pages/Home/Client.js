@@ -12,12 +12,11 @@ const Client = () => {
         <div className=''>
             <h1 class="lg:text-3xl font-bold drop-shadow lg:mt-12 mb-5 text-primary">CLIENT PROJECTS</h1>
             <div className='grid px-6 lg:px-12 grid-col-4 lg:grid-cols-3 gap-4 m-3 justify-center  mt-5 mb-5 flex justify-center'>
-                <div class="card bordered rounded w-96 bg-base-100 shadow-xl hover:scale-110 duration-500">
+                <div class="card bordered rounded w-96 bg-base-100 shadow-xl  hover:scale-110 duration-500">
                     <figure><img className='h-56 w-96 ' src={p} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="font-bold text-lg  drop-shadow ">
                             ICAS Internation Responsive Website
-
                     </h2>
                         <p className='text-justify'>They are working in different sectors based on the standards as well as requirements. We offer strategic guidance to companies and implement their supply chain program to carry out industry-level benchmarking within the leading companies.
                     </p>
